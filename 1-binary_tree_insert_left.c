@@ -1,6 +1,6 @@
 #include "binary_trees.h"
 /**
- *inary_tree_insert_left - insert left child 
+ *binary_tree_insert_left - insert left child 
  * @parent: pointer of parent to left child
  * @value: value of node
  * Return: null if new is null or parent is; pointer to the created node
@@ -8,6 +8,7 @@
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 {
     binary_tree_t *new = malloc(sizeof(binary_tree_t));
+    /*malloc to create node*/
 
     if (new == NULL && parent == NULL)
     {
