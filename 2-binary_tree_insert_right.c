@@ -3,7 +3,7 @@
  *binary_tree_insert_right - insert new node at right child
  * @parent: new node will be at parent
  * @value: value of right child
- * Return Null if parent and right are null; points to new node
+ * Return: Null if parent and right are null; points to new node
  */
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 {
