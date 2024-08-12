@@ -1,6 +1,6 @@
 #include "binary_trees.h"
 /**
- *binary_tree_sibling -ecks tree to see if child nodes have siblings (l&r) 
+ *binary_tree_sibling - checks tree to see if child nodes have siblings (l&r)
  * @node: pointer to node of child
  * Return: left and right node; null if Null
  */
