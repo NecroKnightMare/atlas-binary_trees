@@ -31,6 +31,7 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 	/**will indicate that there is no left child */
 	new->right = NULL;
 	/**indicates there is no right child */
+	
 	return (new);
 	/**returns pointer to parent node */      
 }
