@@ -23,15 +23,14 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 		/**if null return null */
 }
 
-	new->n = value;
-	/**new node will become int n */
 	new->parent = parent;
 	/**then will equal to parent pointer */
 	new->left = NULL;
 	/**will indicate that there is no left child */
 	new->right = NULL;
 	/**indicates there is no right child */
-	
+	new->n = value;
+	/**new node will become int n */	
 	return (new);
 	/**returns pointer to parent node */      
 }
