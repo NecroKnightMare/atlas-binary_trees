@@ -12,8 +12,8 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 /**	if (parent == NULL)
 {
 		return (NULL);
-}**/
-
+}
+**/
 	new = malloc(sizeof(binary_tree_t));
 	/**new node created to size of typedef struct */
 
@@ -30,7 +30,7 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 	new->right = NULL;
 	/**indicates there is no right child */
 	new->n = value;
-	/**new node will become int n */	
+	/**new node will become int n */
 	return (new);
-	/**returns pointer to parent node */      
+	/**returns pointer to parent node */
 }
