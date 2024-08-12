@@ -6,16 +6,16 @@
  */
 int binary_tree_balance(const binary_tree_t *tree)
 {
-	int left_h;
-	int right_h;
+	int left_b;
+	int right_b;
 
 	if (tree == NULL)
 {
 		return (0);
 }
 
-	left_h = tree->left ? (int)binary_tree_height(tree->left) : 0;
-	right_h = tree->right ? (int)binary_tree_height(tree->right) : 0;
+	left_b = tree->left ? (int)binary_tree_balance(tree->left) : 0;
+	right_b = tree->right ? (int)binary_tree_balance(tree->right) : 0;
 
-	return (left_h - right_h);     
+	return (left_b - right_b);
 }
