@@ -6,8 +6,8 @@
  * Return: pointer to new root or Null(fail)
  */
 
- binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree)
- {
+binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree)
+{
 	binary_tree_t *new;
 
 	if (!tree)
@@ -32,4 +32,4 @@
 	tree->parent = new;
 
 	return (new);
- }
+}
