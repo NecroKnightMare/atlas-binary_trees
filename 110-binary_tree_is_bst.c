@@ -29,9 +29,9 @@ int is_bst_helper(const binary_tree_t *tree, int min, int max)
 	is_bst_helper(tree->right, tree->n, max));
 }
 /**
- * binary_tree_is_bst - 
+ * binary_tree_is_bst - checks if tree is binary tree
  * @tree: pointer to root
- * Return: 
+ * Return: 1 if valid- 0 otherwise
  */
 int binary_tree_is_bst(const binary_tree_t *tree)
 {
