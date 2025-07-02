@@ -14,7 +14,7 @@
 	{
 		return (NULL);
 	}
-	if (!!tree->left)
+	if (!tree->left)
 	{
 		return (NULL);
 	}
