@@ -49,5 +49,6 @@ void binary_tree_print(const binary_tree_t *);
 
 /*Advanced prototypes*/
 binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree);
+binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree);
 
 #endif
