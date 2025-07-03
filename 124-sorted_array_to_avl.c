@@ -5,6 +5,7 @@
  * @array: pointer to array
  * @start: start index
  * @end: end index
+ * @parent: pointer to parent node
  * Return: pointer to subtree root
  */
 avl_t *build_avl(int *array, int start, int end, avl_t *parent)
