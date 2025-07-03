@@ -13,7 +13,6 @@ avl_t *min_value_node(avl_t *node)
 	return (node);
 }
 
-
 /**
  * avl_remove - finds numerical successor 
  * @root: pointer to root 
